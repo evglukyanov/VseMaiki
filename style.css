@@ -544,6 +544,29 @@
     border-radius: 1px;
     opacity: 0.3;
     }
+.frame4 .group4 {
+    position: absolute;
+    background-color: #E80000;
+    width: 370px;
+    height: 76px;
+    top: 648px;
+    left: 58px;
+    border-radius: 15px;
+    border: 1px;
+}
+.frame4 .text-wrapper4-1 {
+    font-family: "Inter-BoldItalic", Helvetica;
+    font-weight: 700;
+    font-size: 32px;
+    top: 14px;
+    left: 60px;
+    line-height: 38,73px;
+    position: absolute;
+    font-style: italic;
+    color:#FFFFFF;
+    letter-spacing: 0;
+}
+
 .frame4 .text-wrapper4-3 {
     position: absolute;
     width: 30px;
