@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
-    <script src="script.js"></script>
+    
     <title>Печать НаВсеМайки.ру</title>
 </head>
 <body>
@@ -81,13 +81,15 @@
 <!--Fraim4-->
 <main class="frame4">
     <div class="div4">
-        <div class="overlap4"><img class="image4" src="image/ironman.png"/></div>        
-        <div class="overlap-group4">                
-                <img class="img4" src="image/ironman.png"/>
-                <img class="img4-1" src="image/thor.png"/>
-                <img class="element-venom-png4" src="image/venom.png"/>
-                <img class="pngegg4" src="image/pngg.png"/>
-                <img class="marvel-ultimate4" src="image/storm.png"/>
+        <div class="overlap4"><img class="image4" src="image/ironman.png" id="img"/></div>        
+        <div class="overlap-group4">
+            <script src="script.js"></script>                
+                <img class="img4" id="img1" src="image/ironman.png" onclick="changeImage(this)"/>
+                <img class="img4-1" id="img2" src="image/thor.png" onclick="changeImage(this)"/>
+                <img class="element-venom-png4" id="img3" src="image/venom.png" onclick="changeImage(this)"/>
+                <img class="pngegg4" id="img4" src="image/pngg.png" onclick="changeImage(this)"/>
+                <img class="marvel-ultimate4" id="img5" src="image/storm.png" onclick="changeImage(this)"/>
+                
             <div class="group4">
                     <div class="text-wrapper4-1">Оформить заказ</div>
             </div>
@@ -98,7 +100,7 @@
                     <div class="radio-button"></div>
                     <div class="overlap-group4-1"></div>
                 </div>
-                <div class="text-wrapper4-2">S</div>
+                    <div class="text-wrapper4-2">S</div>
             </div>
             <div class="overlap4-2">
                 <div class="radio-button-item">
